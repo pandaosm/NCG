@@ -1,38 +1,146 @@
-2022-05-10 11:15:51,960|INFO |[restartedMain]||Starting DemoApplication on DESKTOP-S6OKOUJ with PID 11040 (C:\mission\BOA\java\demo2\target\classes started by lenovo in C:\mission\BOA\java\demo2)
-2022-05-10 11:15:51,977|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
-2022-05-10 11:15:52,378|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
-2022-05-10 11:15:52,380|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-05-10 11:15:52,382|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-05-10 11:15:56,249|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-05-10 11:15:57,045|INFO |[restartedMain]||Finished Spring Data repository scanning in 752ms. Found 2 JPA repository interfaces.
-2022-05-10 11:16:01,530|INFO |[restartedMain]||Tomcat initialized with port(s): 8883 (http)
-2022-05-10 11:16:01,570|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8883"]
-2022-05-10 11:16:01,571|INFO |[restartedMain]||Starting service [Tomcat]
-2022-05-10 11:16:01,572|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
-2022-05-10 11:16:01,989|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
-2022-05-10 11:16:01,991|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 9606 ms
-2022-05-10 11:16:03,103|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+2022-10-04 14:32:00,209|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 48940 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-04 14:32:00,217|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-04 14:32:00,429|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-04 14:32:00,431|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-04 14:32:00,433|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-04 14:32:03,982|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-04 14:32:04,633|INFO |[restartedMain]||Finished Spring Data repository scanning in 591ms. Found 1 JPA repository interfaces.
+2022-10-04 14:32:06,965|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-10-04 14:32:06,990|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-04 14:32:06,992|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-04 14:32:06,993|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-04 14:32:07,305|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-04 14:32:07,306|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 6871 ms
+2022-10-04 14:32:07,395|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-10-04 14:32:08,157|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-10-04 14:32:08,171|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-10-04 14:32:08,517|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2022-05-10 11:16:03,421|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
-2022-05-10 11:16:03,428|INFO |[restartedMain]||HHH000206: hibernate.properties not found
-2022-05-10 11:16:04,079|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2022-05-10 11:16:04,528|INFO |[restartedMain]||HikariPool-1 - Starting...
-2022-05-10 11:16:07,714|INFO |[restartedMain]||HikariPool-1 - Start completed.
-2022-05-10 11:16:07,790|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
-2022-05-10 11:16:20,191|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-05-10 11:16:20,197|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-05-10 11:16:21,725|INFO |[restartedMain]||HHH000397: Using ASTQueryTranslatorFactory
-2022-05-10 11:16:24,353|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-05-10 11:16:25,990|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
-2022-05-10 11:16:26,434|INFO |[restartedMain]||LiveReload server is running on port 35729
-2022-05-10 11:16:29,028|INFO |[restartedMain]||Context refreshed
-2022-05-10 11:16:29,193|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
-2022-05-10 11:16:29,304|INFO |[restartedMain]||Scanning for api listing references
-2022-05-10 11:16:30,584|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8883"]
-2022-05-10 11:16:30,800|INFO |[restartedMain]||Tomcat started on port(s): 8883 (http) with context path ''
-2022-05-10 11:16:30,858|INFO |[restartedMain]||Started DemoApplication in 40.618 seconds (JVM running for 43.12)
-2022-05-10 11:16:30,881|INFO |[restartedMain]||*****************info**************
-2022-05-10 11:19:44,907|INFO |[http-nio-8883-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-05-10 11:19:44,908|INFO |[http-nio-8883-exec-1]||Initializing Servlet 'dispatcherServlet'
-2022-05-10 11:19:44,943|INFO |[http-nio-8883-exec-1]||Completed initialization in 33 ms
+2022-10-04 14:32:08,700|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-10-04 14:32:08,707|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-10-04 14:32:09,303|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-04 14:32:09,579|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-04 14:32:10,545|WARN |[restartedMain]||Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.example.demo.NewEntity
+2022-10-04 14:32:10,772|WARN |[restartedMain]||Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-10-04 14:32:10,775|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-10-04 14:32:10,805|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-10-04 14:32:10,812|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-10-04 14:32:10,840|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-04 14:32:10,847|ERROR|[restartedMain]||Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.example.demo.NewEntity
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoNCGL.main(DemoNCGL.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.example.demo.NewEntity
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:266)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:785)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:250)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:231)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:274)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:903)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:934)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 21 common frames omitted
+2022-10-04 14:32:59,862|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 48472 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-04 14:32:59,876|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-04 14:33:00,163|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-04 14:33:00,165|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-04 14:33:00,166|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-04 14:33:06,837|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-04 14:33:07,405|INFO |[restartedMain]||Finished Spring Data repository scanning in 540ms. Found 1 JPA repository interfaces.
+2022-10-04 14:33:09,978|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-10-04 14:33:10,005|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-04 14:33:10,006|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-04 14:33:10,006|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-04 14:33:10,380|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-04 14:33:10,382|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 10216 ms
+2022-10-04 14:33:10,556|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-10-04 14:33:11,469|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-10-04 14:33:11,487|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-10-04 14:33:12,170|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-10-04 14:33:12,453|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-10-04 14:33:12,458|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-10-04 14:33:12,894|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-04 14:33:13,216|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-04 14:33:13,650|WARN |[restartedMain]||Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.example.demo.NewEntity
+2022-10-04 14:33:13,884|WARN |[restartedMain]||Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-10-04 14:33:13,885|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-10-04 14:33:13,894|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-10-04 14:33:13,900|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-10-04 14:33:13,923|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-04 14:33:13,930|ERROR|[restartedMain]||Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.example.demo.NewEntity
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoNCGL.main(DemoNCGL.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.example.demo.NewEntity
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:266)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:785)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:250)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:231)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:274)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:903)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:934)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 21 common frames omitted

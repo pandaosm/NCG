@@ -1,0 +1,924 @@
+2022-09-21 11:30:03,597|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 18211 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:30:03,610|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:30:04,033|INFO |[restartedMain]||The Class-Path manifest attribute in /home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-09-21 11:30:04,034|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 11:30:04,034|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 11:30:04,467|INFO |[background-preinit]||HV000001: Hibernate Validator 6.0.18.Final
+2022-09-21 11:30:07,303|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:30:07,426|INFO |[restartedMain]||Finished Spring Data repository scanning in 115ms. Found 1 JPA repository interfaces.
+2022-09-21 11:30:09,552|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:30:09,565|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:30:09,565|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:30:09,565|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:30:10,186|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:30:10,187|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 6152 ms
+2022-09-21 11:30:10,247|WARN |[restartedMain]||Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+2022-09-21 11:30:10,251|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-09-21 11:30:11,006|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-21 11:30:11,011|ERROR|[restartedMain]||Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoNCGL.main(DemoNCGL.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 40 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 41 common frames omitted
+2022-09-21 11:32:42,964|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 18628 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:32:42,972|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:32:43,054|INFO |[restartedMain]||The Class-Path manifest attribute in /home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-09-21 11:32:43,054|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 11:32:43,055|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 11:32:44,028|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:32:44,151|INFO |[restartedMain]||Finished Spring Data repository scanning in 113ms. Found 1 JPA repository interfaces.
+2022-09-21 11:32:44,802|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:32:44,813|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:32:44,813|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:32:44,814|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:32:44,881|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:32:44,881|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 1826 ms
+2022-09-21 11:32:44,945|WARN |[restartedMain]||Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+2022-09-21 11:32:44,948|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-09-21 11:32:45,063|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-21 11:32:45,066|ERROR|[restartedMain]||Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoNCGL.main(DemoNCGL.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 40 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: org.h2.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 41 common frames omitted
+2022-09-21 11:34:46,452|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 18770 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:34:46,458|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:34:46,551|INFO |[restartedMain]||The Class-Path manifest attribute in /home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-09-21 11:34:46,551|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 11:34:46,552|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 11:34:47,466|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:34:47,617|INFO |[restartedMain]||Finished Spring Data repository scanning in 143ms. Found 1 JPA repository interfaces.
+2022-09-21 11:34:48,340|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:34:48,351|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:34:48,352|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:34:48,352|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:34:48,415|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:34:48,416|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 1864 ms
+2022-09-21 11:34:48,461|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-09-21 11:34:48,736|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-09-21 11:34:48,743|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 11:34:48,892|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 11:34:48,970|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-09-21 11:34:48,971|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-09-21 11:34:49,128|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-21 11:34:49,222|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 11:34:49,825|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 11:34:49,827|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:34:49,845|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-09-21 11:34:50,269|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 11:34:50,416|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-21 11:34:51,350|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:34:51,618|INFO |[restartedMain]||Context refreshed
+2022-09-21 11:34:51,647|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-21 11:34:51,674|INFO |[restartedMain]||Scanning for api listing references
+2022-09-21 11:34:51,851|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:34:51,878|INFO |[restartedMain]||Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-21 11:34:51,883|INFO |[restartedMain]||Started DemoNCGL in 5.84 seconds (JVM running for 6.907)
+2022-09-21 11:34:51,956|INFO |[restartedMain]||*****************info**************
+2022-09-21 11:36:07,723|INFO |[http-nio-8080-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 11:36:08,140|INFO |[http-nio-8080-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-09-21 11:36:08,152|INFO |[http-nio-8080-exec-1]||Completed initialization in 12 ms
+2022-09-21 11:36:08,262|ERROR|[http-nio-8080-exec-1]||Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$RgljKDf3["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$RgljKDf3["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:404)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:722)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1433)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:921)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:294)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-21 11:38:09,383|ERROR|[http-nio-8080-exec-1]||Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$RgljKDf3["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$RgljKDf3["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:404)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:722)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1433)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:921)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:294)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-21 11:39:05,708|INFO |[Thread-5]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:39:05,710|INFO |[Thread-5]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:39:05,943|WARN |[Thread-5]||Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-09-21 11:39:05,944|INFO |[Thread-5]||HikariPool-1 - Shutdown initiated...
+2022-09-21 11:39:05,947|INFO |[Thread-5]||HikariPool-1 - Shutdown completed.
+2022-09-21 11:39:06,262|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 18770 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:39:06,263|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:39:06,971|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:39:06,978|INFO |[restartedMain]||Finished Spring Data repository scanning in 6ms. Found 1 JPA repository interfaces.
+2022-09-21 11:39:07,642|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:39:07,644|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:39:07,645|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:39:07,645|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:39:07,660|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:39:07,660|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 1394 ms
+2022-09-21 11:39:07,689|INFO |[restartedMain]||HikariPool-2 - Starting...
+2022-09-21 11:39:07,693|INFO |[restartedMain]||HikariPool-2 - Start completed.
+2022-09-21 11:39:07,693|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 11:39:07,730|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 11:39:07,733|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 11:39:07,789|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 11:39:07,789|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:39:07,794|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-09-21 11:39:07,914|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 11:39:07,977|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-21 11:39:08,025|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:39:08,087|INFO |[restartedMain]||Context refreshed
+2022-09-21 11:39:08,088|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-21 11:39:08,091|INFO |[restartedMain]||Scanning for api listing references
+2022-09-21 11:39:08,133|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:39:08,136|INFO |[restartedMain]||Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-21 11:39:08,137|INFO |[restartedMain]||Started DemoNCGL in 1.989 seconds (JVM running for 263.162)
+2022-09-21 11:39:08,144|INFO |[restartedMain]||*****************info**************
+2022-09-21 11:39:08,146|INFO |[restartedMain]||Condition evaluation unchanged
+2022-09-21 11:39:41,021|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 19684 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:39:41,080|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:39:41,314|INFO |[restartedMain]||The Class-Path manifest attribute in /home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-09-21 11:39:41,314|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 11:39:41,314|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 11:39:42,749|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:39:42,990|INFO |[restartedMain]||Finished Spring Data repository scanning in 221ms. Found 1 JPA repository interfaces.
+2022-09-21 11:39:44,054|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:39:44,077|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:39:44,078|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:39:44,078|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:39:44,155|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:39:44,155|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 2840 ms
+2022-09-21 11:39:44,218|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-09-21 11:39:44,614|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-09-21 11:39:44,623|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 11:39:44,930|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 11:39:45,667|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-09-21 11:39:45,798|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-09-21 11:39:46,512|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-21 11:39:46,697|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 11:39:48,437|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 11:39:48,438|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:39:48,455|WARN |[restartedMain]||Unable to start LiveReload server
+2022-09-21 11:39:49,373|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 11:39:49,656|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-21 11:39:49,823|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:39:50,485|INFO |[http-nio-8080-exec-3]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 11:39:50,485|INFO |[http-nio-8080-exec-3]||Initializing Servlet 'dispatcherServlet'
+2022-09-21 11:39:50,488|INFO |[http-nio-8080-exec-3]||Completed initialization in 3 ms
+2022-09-21 11:39:50,539|INFO |[http-nio-8080-exec-3]||HHH000397: Using ASTQueryTranslatorFactory
+2022-09-21 11:39:50,794|INFO |[restartedMain]||Context refreshed
+2022-09-21 11:39:50,827|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-21 11:39:50,855|INFO |[restartedMain]||Scanning for api listing references
+2022-09-21 11:39:51,228|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:39:51,240|INFO |[restartedMain]||Pausing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:39:51,240|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-09-21 11:39:51,245|WARN |[restartedMain]||The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-09-21 11:39:51,248|INFO |[restartedMain]||Stopping ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:39:51,248|INFO |[restartedMain]||Destroying ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:39:51,251|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-21 11:39:51,253|ERROR|[restartedMain]||
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-09-21 11:39:51,269|INFO |[restartedMain]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:39:51,271|INFO |[restartedMain]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:39:51,478|WARN |[restartedMain]||Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-09-21 11:39:51,479|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-09-21 11:39:51,482|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-09-21 11:42:06,924|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 20493 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:42:06,931|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:42:08,036|INFO |[restartedMain]||The Class-Path manifest attribute in /home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-09-21 11:42:08,037|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 11:42:08,037|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 11:42:11,851|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:42:15,404|INFO |[restartedMain]||Finished Spring Data repository scanning in 3540ms. Found 1 JPA repository interfaces.
+2022-09-21 11:42:19,489|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:42:19,503|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:42:19,505|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:42:19,505|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:42:19,917|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:42:19,918|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 11881 ms
+2022-09-21 11:42:20,273|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-09-21 11:42:21,392|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-09-21 11:42:21,400|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 11:42:21,915|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 11:42:22,166|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-09-21 11:42:22,169|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-09-21 11:42:22,590|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-21 11:42:22,709|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 11:42:23,376|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 11:42:23,379|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:42:23,403|WARN |[restartedMain]||Unable to start LiveReload server
+2022-09-21 11:42:23,943|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 11:42:24,341|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-21 11:42:24,463|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:42:25,106|INFO |[restartedMain]||Context refreshed
+2022-09-21 11:42:25,173|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-21 11:42:25,212|INFO |[restartedMain]||Scanning for api listing references
+2022-09-21 11:42:25,457|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:42:25,464|INFO |[restartedMain]||Pausing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:42:25,465|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-09-21 11:42:25,468|WARN |[restartedMain]||The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-09-21 11:42:25,469|WARN |[restartedMain]||The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-09-21 11:42:25,471|INFO |[restartedMain]||Stopping ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:42:25,472|INFO |[restartedMain]||Destroying ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:42:25,475|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-21 11:42:25,478|ERROR|[restartedMain]||
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-09-21 11:42:25,866|INFO |[restartedMain]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:42:25,870|INFO |[restartedMain]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:42:26,078|WARN |[restartedMain]||Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-09-21 11:42:26,079|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-09-21 11:42:26,088|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-09-21 11:46:09,829|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 21037 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:46:09,840|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:46:10,146|INFO |[restartedMain]||The Class-Path manifest attribute in /home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-09-21 11:46:10,146|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 11:46:10,148|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 11:46:11,402|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:46:11,566|INFO |[restartedMain]||Finished Spring Data repository scanning in 154ms. Found 1 JPA repository interfaces.
+2022-09-21 11:46:12,393|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:46:12,406|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:46:12,406|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:46:12,406|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:46:12,489|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:46:12,489|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 2341 ms
+2022-09-21 11:46:12,557|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-09-21 11:46:12,884|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-09-21 11:46:12,891|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 11:46:13,072|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 11:46:13,142|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-09-21 11:46:13,146|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-09-21 11:46:13,303|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-21 11:46:13,399|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 11:46:14,097|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 11:46:14,100|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:46:14,123|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-09-21 11:46:14,657|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 11:46:14,823|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-21 11:46:14,981|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:46:15,303|INFO |[restartedMain]||Context refreshed
+2022-09-21 11:46:15,323|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-21 11:46:15,357|INFO |[restartedMain]||Scanning for api listing references
+2022-09-21 11:46:15,531|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:46:15,576|INFO |[restartedMain]||Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-21 11:46:15,582|INFO |[restartedMain]||Started DemoNCGL in 6.167 seconds (JVM running for 7.53)
+2022-09-21 11:46:15,982|INFO |[restartedMain]||*****************info**************
+2022-09-21 11:46:31,564|INFO |[http-nio-8080-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 11:46:31,565|INFO |[http-nio-8080-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-09-21 11:46:31,576|INFO |[http-nio-8080-exec-1]||Completed initialization in 11 ms
+2022-09-21 11:46:31,633|INFO |[http-nio-8080-exec-1]||HHH000397: Using ASTQueryTranslatorFactory
+2022-09-21 11:49:21,330|ERROR|[http-nio-8080-exec-10]||Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$NiJWOZ44["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$NiJWOZ44["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:404)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:722)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1433)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:921)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:294)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-21 11:50:23,239|ERROR|[http-nio-8080-exec-3]||Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$NiJWOZ44["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$NiJWOZ44["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:404)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:722)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1433)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:921)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:294)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-21 11:53:26,234|INFO |[Thread-5]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:53:26,240|INFO |[Thread-5]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:53:26,451|WARN |[Thread-5]||Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-09-21 11:53:26,452|INFO |[Thread-5]||HikariPool-1 - Shutdown initiated...
+2022-09-21 11:53:26,458|INFO |[Thread-5]||HikariPool-1 - Shutdown completed.
+2022-09-21 11:53:26,602|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 21037 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:53:26,602|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:53:26,904|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:53:26,910|INFO |[restartedMain]||Finished Spring Data repository scanning in 5ms. Found 1 JPA repository interfaces.
+2022-09-21 11:53:27,021|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:53:27,022|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:53:27,023|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:53:27,023|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:53:27,034|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:53:27,034|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 427 ms
+2022-09-21 11:53:27,054|INFO |[restartedMain]||HikariPool-2 - Starting...
+2022-09-21 11:53:27,058|INFO |[restartedMain]||HikariPool-2 - Start completed.
+2022-09-21 11:53:27,059|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 11:53:27,088|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 11:53:27,092|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 11:53:44,037|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 21855 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:53:44,044|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:53:44,124|INFO |[restartedMain]||The Class-Path manifest attribute in /home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-09-21 11:53:44,125|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 11:53:44,125|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 11:53:45,010|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:53:45,184|INFO |[restartedMain]||Finished Spring Data repository scanning in 165ms. Found 1 JPA repository interfaces.
+2022-09-21 11:53:46,079|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:53:46,098|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:53:46,099|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:53:46,099|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:53:46,167|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:53:46,167|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 2042 ms
+2022-09-21 11:53:46,220|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-09-21 11:53:46,516|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-09-21 11:53:46,525|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 11:53:46,676|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 11:53:46,780|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-09-21 11:53:46,782|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-09-21 11:53:47,005|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-21 11:53:47,136|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 11:53:47,888|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 11:53:47,890|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:53:47,913|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-09-21 11:53:48,378|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 11:53:48,513|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-21 11:53:48,646|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:53:48,947|INFO |[restartedMain]||Context refreshed
+2022-09-21 11:53:48,971|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-21 11:53:49,009|INFO |[restartedMain]||Scanning for api listing references
+2022-09-21 11:53:49,203|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:53:49,262|INFO |[restartedMain]||Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-21 11:53:49,269|INFO |[restartedMain]||Started DemoNCGL in 5.801 seconds (JVM running for 6.787)
+2022-09-21 11:53:49,365|INFO |[restartedMain]||*****************info**************
+2022-09-21 11:54:10,144|INFO |[http-nio-8080-exec-2]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 11:54:10,144|INFO |[http-nio-8080-exec-2]||Initializing Servlet 'dispatcherServlet'
+2022-09-21 11:54:10,157|INFO |[http-nio-8080-exec-2]||Completed initialization in 13 ms
+2022-09-21 11:54:10,234|ERROR|[http-nio-8080-exec-2]||Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$xB1VgLxk["hibernateLazyInitializer"])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.example.demo.NCG$HibernateProxy$xB1VgLxk["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1191)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:404)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:722)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:166)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1433)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:921)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:294)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:287)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-21 11:56:45,569|INFO |[Thread-5]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:56:45,573|INFO |[Thread-5]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:56:45,780|WARN |[Thread-5]||Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-09-21 11:56:45,782|INFO |[Thread-5]||HikariPool-1 - Shutdown initiated...
+2022-09-21 11:56:45,790|INFO |[Thread-5]||HikariPool-1 - Shutdown completed.
+2022-09-21 11:56:45,976|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 21855 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 11:56:45,977|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 11:56:46,363|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 11:56:46,370|INFO |[restartedMain]||Finished Spring Data repository scanning in 5ms. Found 1 JPA repository interfaces.
+2022-09-21 11:56:46,489|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 11:56:46,491|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:56:46,491|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 11:56:46,491|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 11:56:46,502|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 11:56:46,502|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 519 ms
+2022-09-21 11:56:46,523|INFO |[restartedMain]||HikariPool-2 - Starting...
+2022-09-21 11:56:46,527|INFO |[restartedMain]||HikariPool-2 - Start completed.
+2022-09-21 11:56:46,528|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 11:56:46,567|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 11:56:46,572|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 11:56:46,644|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 11:56:46,645|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 11:56:46,651|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-09-21 11:56:46,767|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 11:56:46,816|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-21 11:56:46,862|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-21 11:56:46,924|INFO |[restartedMain]||Context refreshed
+2022-09-21 11:56:46,925|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-21 11:56:46,930|INFO |[restartedMain]||Scanning for api listing references
+2022-09-21 11:56:46,963|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-21 11:56:46,968|INFO |[restartedMain]||Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-21 11:56:46,970|INFO |[restartedMain]||Started DemoNCGL in 1.04 seconds (JVM running for 184.488)
+2022-09-21 11:56:46,992|INFO |[restartedMain]||*****************info**************
+2022-09-21 11:56:46,995|INFO |[restartedMain]||Condition evaluation unchanged
+2022-09-21 11:57:18,733|INFO |[http-nio-8080-exec-2]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 11:57:18,733|INFO |[http-nio-8080-exec-2]||Initializing Servlet 'dispatcherServlet'
+2022-09-21 11:57:18,737|INFO |[http-nio-8080-exec-2]||Completed initialization in 4 ms
+2022-09-21 12:07:21,960|INFO |[background-preinit]||HV000001: Hibernate Validator 6.0.18.Final
+2022-09-21 12:07:23,167|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 23477 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 12:07:23,168|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 12:07:24,520|INFO |[restartedMain]||The Class-Path manifest attribute in /home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-09-21 12:07:24,520|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 12:07:24,520|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 12:07:27,474|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 12:07:28,106|INFO |[restartedMain]||Finished Spring Data repository scanning in 619ms. Found 1 JPA repository interfaces.
+2022-09-21 12:07:29,420|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 12:07:29,436|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 12:07:29,437|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 12:07:29,437|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 12:07:29,520|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 12:07:29,521|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 5001 ms
+2022-09-21 12:07:29,620|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-09-21 12:07:30,205|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-09-21 12:07:30,214|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 12:07:30,490|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 12:07:30,664|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-09-21 12:07:30,668|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-09-21 12:07:31,040|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-21 12:07:31,352|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 12:07:32,187|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 12:07:32,190|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 12:07:32,210|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-09-21 12:07:32,773|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 12:07:32,908|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-21 12:07:33,045|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-21 12:07:33,730|INFO |[restartedMain]||Context refreshed
+2022-09-21 12:07:33,745|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-21 12:07:33,776|INFO |[restartedMain]||Scanning for api listing references
+2022-09-21 12:07:33,940|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-21 12:07:33,982|INFO |[restartedMain]||Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-21 12:07:33,986|INFO |[restartedMain]||Started DemoNCGL in 15.309 seconds (JVM running for 18.869)
+2022-09-21 12:07:34,062|INFO |[restartedMain]||*****************info**************
+2022-09-21 12:07:44,577|INFO |[http-nio-8080-exec-1]||Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 12:07:44,578|INFO |[http-nio-8080-exec-1]||Initializing Servlet 'dispatcherServlet'
+2022-09-21 12:07:44,626|INFO |[http-nio-8080-exec-1]||Completed initialization in 48 ms
+2022-09-21 12:08:08,706|INFO |[Thread-5]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-21 12:08:08,709|INFO |[Thread-5]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 12:08:08,927|WARN |[Thread-5]||Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-09-21 12:08:08,928|INFO |[Thread-5]||HikariPool-1 - Shutdown initiated...
+2022-09-21 12:08:08,969|INFO |[Thread-5]||HikariPool-1 - Shutdown completed.
+2022-09-21 12:08:09,219|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 23477 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-21 12:08:09,220|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-21 12:08:09,616|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-21 12:08:09,636|INFO |[restartedMain]||Finished Spring Data repository scanning in 19ms. Found 1 JPA repository interfaces.
+2022-09-21 12:08:09,995|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-21 12:08:09,996|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-21 12:08:09,997|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-21 12:08:09,997|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-21 12:08:10,013|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-21 12:08:10,013|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 790 ms
+2022-09-21 12:08:10,048|INFO |[restartedMain]||HikariPool-2 - Starting...
+2022-09-21 12:08:10,052|INFO |[restartedMain]||HikariPool-2 - Start completed.
+2022-09-21 12:08:10,053|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-21 12:08:10,093|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-21 12:08:10,097|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-21 12:08:10,160|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-21 12:08:10,161|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-21 12:08:10,166|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-09-21 12:08:10,305|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-21 12:08:10,355|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-21 12:08:10,417|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-21 12:08:10,467|INFO |[restartedMain]||Context refreshed
+2022-09-21 12:08:10,467|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-21 12:08:10,471|INFO |[restartedMain]||Scanning for api listing references
+2022-09-21 12:08:10,520|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-21 12:08:10,537|INFO |[restartedMain]||Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-21 12:08:10,539|INFO |[restartedMain]||Started DemoNCGL in 1.354 seconds (JVM running for 55.422)
+2022-09-21 12:08:10,549|INFO |[restartedMain]||*****************info**************
+2022-09-21 12:08:10,553|INFO |[restartedMain]||Condition evaluation unchanged

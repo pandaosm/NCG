@@ -1,0 +1,36 @@
+2022-09-19 09:56:20,708|INFO |[restartedMain]||Starting DemoNCGL on osm-ThinkBook-14-G2-ARE with PID 10067 (started by osm in /home/osm/Bureau/java proj/demoNCGL)
+2022-09-19 09:56:20,715|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-09-19 09:56:21,082|INFO |[restartedMain]||The Class-Path manifest attribute in /home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/osm/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-09-19 09:56:21,083|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-19 09:56:21,084|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-19 09:56:27,226|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-19 09:56:28,334|INFO |[restartedMain]||Finished Spring Data repository scanning in 759ms. Found 1 JPA repository interfaces.
+2022-09-19 09:56:31,297|INFO |[restartedMain]||Tomcat initialized with port(s): 8080 (http)
+2022-09-19 09:56:31,320|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-19 09:56:31,321|INFO |[restartedMain]||Starting service [Tomcat]
+2022-09-19 09:56:31,321|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-09-19 09:56:31,852|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-09-19 09:56:31,852|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 10767 ms
+2022-09-19 09:56:32,183|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-09-19 09:56:33,729|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-09-19 09:56:33,741|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdref'
+2022-09-19 09:56:35,020|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-09-19 09:56:35,594|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-09-19 09:56:35,597|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-09-19 09:56:36,149|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-09-19 09:56:36,599|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-19 09:56:39,465|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-19 09:56:39,469|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-19 09:56:39,561|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-09-19 09:56:41,771|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-19 09:56:42,220|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 09:56:42,498|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-19 09:56:47,805|INFO |[restartedMain]||Context refreshed
+2022-09-19 09:56:48,729|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-09-19 09:56:49,138|INFO |[restartedMain]||Scanning for api listing references
+2022-09-19 09:56:49,662|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8080"]
+2022-09-19 09:56:49,750|INFO |[restartedMain]||Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-19 09:56:49,755|INFO |[restartedMain]||Started DemoNCGL in 30.731 seconds (JVM running for 34.421)
+2022-09-19 09:56:49,860|INFO |[restartedMain]||*****************info**************

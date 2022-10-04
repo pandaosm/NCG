@@ -1,0 +1,77 @@
+2022-07-25 10:22:27,903|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 19404 (C:\mission\BOA\java\demoNCGL\target\classes started by lenovo in C:\mission\BOA\java\demoNCGL)
+2022-07-25 10:22:27,921|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-25 10:22:29,085|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-25 10:22:29,093|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-25 10:22:29,095|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-25 10:22:55,393|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 10:22:58,168|INFO |[restartedMain]||Finished Spring Data repository scanning in 2658ms. Found 1 JPA repository interfaces.
+2022-07-25 10:23:08,907|INFO |[restartedMain]||Tomcat initialized with port(s): 8092 (http)
+2022-07-25 10:23:09,413|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8092"]
+2022-07-25 10:23:09,420|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-25 10:23:09,421|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-25 10:23:11,835|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-25 10:23:11,837|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 42742 ms
+2022-07-25 10:23:28,778|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-25 10:23:36,330|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-25 10:23:37,642|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-25 10:23:38,276|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-25 10:23:38,281|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-25 10:23:39,523|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-25 10:23:41,124|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-25 10:23:56,991|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 10:23:56,999|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 10:24:01,580|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 10:24:03,787|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-25 10:24:04,883|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-25 10:24:07,324|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-25 10:24:07,687|WARN |[restartedMain]||Unable to start LiveReload server
+2022-07-25 10:24:11,529|INFO |[restartedMain]||Context refreshed
+2022-07-25 10:24:11,695|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-25 10:24:11,877|INFO |[restartedMain]||Scanning for api listing references
+2022-07-25 10:24:13,016|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-25 10:24:13,030|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-25 10:24:13,162|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8092"]
+2022-07-25 10:24:13,534|INFO |[restartedMain]||Tomcat started on port(s): 8092 (http) with context path ''
+2022-07-25 10:24:13,559|INFO |[restartedMain]||Started DemoNCGL in 114.479 seconds (JVM running for 123.555)
+2022-07-25 10:24:14,292|INFO |[restartedMain]||*****************info**************
+2022-07-25 13:47:54,841|WARN |[HikariPool-1 housekeeper]||HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m13s149ms959µs800ns).
+2022-07-25 15:31:20,486|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 17240 (C:\mission\BOA\java\demoNCGL\target\classes started by lenovo in C:\mission\BOA\java\demoNCGL)
+2022-07-25 15:31:20,510|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-07-25 15:31:22,534|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-07-25 15:31:22,536|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-25 15:31:22,543|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-25 15:31:38,008|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 15:31:39,878|INFO |[restartedMain]||Finished Spring Data repository scanning in 1770ms. Found 1 JPA repository interfaces.
+2022-07-25 15:31:45,627|INFO |[restartedMain]||Tomcat initialized with port(s): 8092 (http)
+2022-07-25 15:31:45,721|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8092"]
+2022-07-25 15:31:45,728|INFO |[restartedMain]||Starting service [Tomcat]
+2022-07-25 15:31:45,733|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-07-25 15:31:46,556|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-07-25 15:31:46,563|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 24006 ms
+2022-07-25 15:31:50,654|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-07-25 15:31:54,262|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-07-25 15:31:54,614|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-07-25 15:31:55,111|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-07-25 15:31:55,124|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-07-25 15:31:56,759|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-07-25 15:31:58,120|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-07-25 15:32:03,558|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 15:32:03,570|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 15:32:06,855|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 15:32:07,332|INFO |[restartedMain]||Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-07-25 15:32:08,261|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-25 15:32:09,075|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-25 15:32:09,177|WARN |[restartedMain]||Unable to start LiveReload server
+2022-07-25 15:32:11,587|INFO |[restartedMain]||Context refreshed
+2022-07-25 15:32:11,687|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-07-25 15:32:11,923|INFO |[restartedMain]||Scanning for api listing references
+2022-07-25 15:32:12,785|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_1
+2022-07-25 15:32:12,796|INFO |[restartedMain]||Generating unique operation named: handleUsingGET_2
+2022-07-25 15:32:12,933|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8092"]
+2022-07-25 15:32:13,120|INFO |[restartedMain]||Tomcat started on port(s): 8092 (http) with context path ''
+2022-07-25 15:32:13,159|INFO |[restartedMain]||Started DemoNCGL in 56.344 seconds (JVM running for 63.789)
+2022-07-25 15:32:13,879|INFO |[restartedMain]||*****************info**************
