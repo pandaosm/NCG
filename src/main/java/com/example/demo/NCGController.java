@@ -26,7 +26,7 @@ public class NCGController {
 	@Autowired
 	private  INCG incg;
 	
-
+//controller
 	@GetMapping("/getNCGGR")
 	public List<NCG> listNCG() {
 		List<NCG> listNCG = incg.findAll();
