@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 
 
 @RestController
-
+//controller
 public class NCGController {
 	
 	@Autowired
