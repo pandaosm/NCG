@@ -20,9 +20,8 @@ import lombok.NoArgsConstructor;
 
 
 @RestController
-//controller
+//controllerq:
 public class NCGController {
-	
 	@Autowired
 	private  INCG incg;
 	
