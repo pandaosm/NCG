@@ -16,11 +16,9 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
-
 
 @RestController
-//controllerq:
+//controller
 public class NCGController {
 	@Autowired
 	private  INCG incg;
@@ -42,12 +40,8 @@ public class NCGController {
 	@GetMapping("/ncg/{ncgid}")
 	public NCG getNCG(@PathVariable String ncgid ){
 
-
-		//Stream<NCG> streamNCG = listNCG.stream();
-	
-		//streamNCG.forEach(System.out::print);
 		
-		NCG ncg = incg.findById(ncgid).get();
+		NCG ncg = incg.findById(ncgid).orElse(null);
 		return ncg;
 		
 	}
