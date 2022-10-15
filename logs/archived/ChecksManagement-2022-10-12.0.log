@@ -1,0 +1,566 @@
+2022-10-12 09:40:01,475|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 22160 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-12 09:40:01,495|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-12 09:40:01,686|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-12 09:40:01,688|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-12 09:40:01,690|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-12 09:40:05,207|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 09:40:05,503|INFO |[restartedMain]||Finished Spring Data repository scanning in 261ms. Found 1 JPA repository interfaces.
+2022-10-12 09:40:08,236|INFO |[restartedMain]||Tomcat initialized with port(s): 8088 (http)
+2022-10-12 09:40:08,259|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8088"]
+2022-10-12 09:40:08,262|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-12 09:40:08,263|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-12 09:40:08,476|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-12 09:40:08,477|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 6786 ms
+2022-10-12 09:40:08,570|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-10-12 09:40:09,042|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-10-12 09:40:09,058|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdNCG'
+2022-10-12 09:40:09,456|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-10-12 09:40:09,691|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-10-12 09:40:09,695|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-10-12 09:40:10,080|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-12 09:40:10,362|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-12 09:40:11,696|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 09:40:11,700|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 09:40:11,744|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-10-12 09:40:13,086|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 09:40:13,468|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-12 09:40:13,767|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-12 09:40:14,474|INFO |[restartedMain]||Context refreshed
+2022-10-12 09:40:14,536|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-10-12 09:40:14,606|INFO |[restartedMain]||Scanning for api listing references
+2022-10-12 09:40:15,012|INFO |[restartedMain]||Generating unique operation named: listNCGUsingGET_1
+2022-10-12 09:40:15,036|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8088"]
+2022-10-12 09:40:15,165|INFO |[restartedMain]||Tomcat started on port(s): 8088 (http) with context path ''
+2022-10-12 09:40:15,174|INFO |[restartedMain]||Started DemoNCGL in 14.778 seconds (JVM running for 16.397)
+2022-10-12 09:40:15,336|INFO |[restartedMain]||*****************info**************
+2022-10-12 09:47:19,983|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 5004 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-12 09:47:19,992|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-12 09:47:20,175|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-12 09:47:20,176|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-12 09:47:20,177|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-12 09:47:22,672|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 09:47:23,052|INFO |[restartedMain]||Finished Spring Data repository scanning in 337ms. Found 1 JPA repository interfaces.
+2022-10-12 09:47:24,857|INFO |[restartedMain]||Tomcat initialized with port(s): 8088 (http)
+2022-10-12 09:47:24,886|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8088"]
+2022-10-12 09:47:24,887|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-12 09:47:24,888|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-12 09:47:25,202|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-12 09:47:25,203|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 5025 ms
+2022-10-12 09:47:25,287|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-10-12 09:47:25,706|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-10-12 09:47:25,719|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdNCG'
+2022-10-12 09:47:26,060|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-10-12 09:47:26,422|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-10-12 09:47:26,427|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-10-12 09:47:26,798|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-12 09:47:27,071|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-12 09:47:28,668|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 09:47:28,672|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 09:47:28,731|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-10-12 09:47:29,970|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 09:47:30,306|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-12 09:47:30,588|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-12 09:47:31,368|INFO |[restartedMain]||Context refreshed
+2022-10-12 09:47:31,430|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-10-12 09:47:31,514|INFO |[restartedMain]||Scanning for api listing references
+2022-10-12 09:47:31,922|INFO |[restartedMain]||Generating unique operation named: listNCGUsingGET_1
+2022-10-12 09:47:31,962|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8088"]
+2022-10-12 09:47:32,066|INFO |[restartedMain]||Tomcat started on port(s): 8088 (http) with context path ''
+2022-10-12 09:47:32,071|INFO |[restartedMain]||Started DemoNCGL in 12.957 seconds (JVM running for 14.593)
+2022-10-12 09:47:32,245|INFO |[restartedMain]||*****************info**************
+2022-10-12 11:00:47,533|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 22760 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-12 11:00:47,554|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-12 11:00:47,899|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-12 11:00:47,900|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-12 11:00:47,901|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-12 11:01:05,700|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 11:01:07,031|INFO |[restartedMain]||Finished Spring Data repository scanning in 1218ms. Found 1 JPA repository interfaces.
+2022-10-12 11:01:18,260|INFO |[restartedMain]||Tomcat initialized with port(s): 8088 (http)
+2022-10-12 11:01:18,409|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8088"]
+2022-10-12 11:01:18,415|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-12 11:01:18,416|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-12 11:01:19,960|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-12 11:01:19,999|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 32096 ms
+2022-10-12 11:01:20,502|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-10-12 11:01:21,641|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-10-12 11:01:21,676|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdNCG'
+2022-10-12 11:01:28,485|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-10-12 11:01:29,505|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-10-12 11:01:29,515|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-10-12 11:01:30,103|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-12 11:01:30,589|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-12 11:01:34,935|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 11:01:34,942|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 11:01:35,115|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-10-12 11:01:39,424|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 11:01:40,810|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-12 11:01:43,636|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-12 11:01:45,600|INFO |[restartedMain]||Context refreshed
+2022-10-12 11:01:45,681|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-10-12 11:01:45,788|INFO |[restartedMain]||Scanning for api listing references
+2022-10-12 11:01:46,419|INFO |[restartedMain]||Generating unique operation named: listNCGUsingGET_1
+2022-10-12 11:01:46,471|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8088"]
+2022-10-12 11:01:46,949|INFO |[restartedMain]||Tomcat started on port(s): 8088 (http) with context path ''
+2022-10-12 11:01:47,068|INFO |[restartedMain]||Started DemoNCGL in 61.859 seconds (JVM running for 66.949)
+2022-10-12 11:01:47,482|INFO |[restartedMain]||*****************info**************
+2022-10-12 13:28:22,694|WARN |[HikariPool-1 housekeeper]||HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29m29s118ms608�s900ns).
+2022-10-12 13:51:35,551|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 8612 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-12 13:51:35,566|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-12 13:51:35,811|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-12 13:51:35,812|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-12 13:51:35,813|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-12 13:51:38,881|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 13:51:39,306|INFO |[restartedMain]||Finished Spring Data repository scanning in 401ms. Found 1 JPA repository interfaces.
+2022-10-12 13:51:41,485|INFO |[restartedMain]||Tomcat initialized with port(s): 8088 (http)
+2022-10-12 13:51:41,525|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8088"]
+2022-10-12 13:51:41,526|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-12 13:51:41,528|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-12 13:51:41,778|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-12 13:51:41,779|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 5965 ms
+2022-10-12 13:51:41,882|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-10-12 13:51:43,067|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-10-12 13:51:43,085|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bdNCG'
+2022-10-12 13:51:43,440|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-10-12 13:51:43,622|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-10-12 13:51:43,626|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-10-12 13:51:44,035|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-12 13:51:44,407|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-12 13:51:47,948|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 13:51:48,018|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 13:51:48,803|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-10-12 13:51:54,322|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 13:51:54,791|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-12 13:51:55,145|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-12 13:51:56,394|INFO |[restartedMain]||Context refreshed
+2022-10-12 13:51:56,493|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-10-12 13:51:56,816|INFO |[restartedMain]||Scanning for api listing references
+2022-10-12 13:51:57,436|INFO |[restartedMain]||Generating unique operation named: listNCGUsingGET_1
+2022-10-12 13:51:57,503|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8088"]
+2022-10-12 13:51:57,844|INFO |[restartedMain]||Tomcat started on port(s): 8088 (http) with context path ''
+2022-10-12 13:51:57,930|INFO |[restartedMain]||Started DemoNCGL in 24.247 seconds (JVM running for 27.774)
+2022-10-12 13:51:58,155|INFO |[restartedMain]||*****************info**************
+2022-10-12 16:15:39,757|INFO |[Thread-5]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-12 16:15:39,839|INFO |[Thread-5]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 16:15:40,231|WARN |[Thread-5]||Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-10-12 16:15:40,237|INFO |[Thread-5]||HikariPool-1 - Shutdown initiated...
+2022-10-12 16:15:40,262|INFO |[Thread-5]||HikariPool-1 - Shutdown completed.
+2022-10-12 16:15:41,285|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 8612 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-12 16:15:41,286|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-12 16:15:42,907|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 16:15:42,922|INFO |[restartedMain]||Finished Spring Data repository scanning in 14ms. Found 1 JPA repository interfaces.
+2022-10-12 16:15:43,371|INFO |[restartedMain]||Tomcat initialized with port(s): 8088 (http)
+2022-10-12 16:15:43,373|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:15:43,373|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-12 16:15:43,374|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-12 16:15:43,425|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-12 16:15:43,426|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 2126 ms
+2022-10-12 16:15:43,464|INFO |[restartedMain]||HikariPool-2 - Starting...
+2022-10-12 16:15:43,476|INFO |[restartedMain]||HikariPool-2 - Start completed.
+2022-10-12 16:15:43,478|INFO |[restartedMain]||H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-10-12 16:15:43,559|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-10-12 16:15:43,577|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-10-12 16:15:43,761|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 16:15:43,761|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 16:15:43,778|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-10-12 16:15:44,079|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 16:15:44,252|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-12 16:15:44,344|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-12 16:15:44,463|INFO |[restartedMain]||Context refreshed
+2022-10-12 16:15:44,465|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-10-12 16:15:44,473|INFO |[restartedMain]||Scanning for api listing references
+2022-10-12 16:15:44,611|INFO |[restartedMain]||Generating unique operation named: listNCGUsingGET_1
+2022-10-12 16:15:44,622|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:15:44,640|INFO |[restartedMain]||Tomcat started on port(s): 8088 (http) with context path ''
+2022-10-12 16:15:44,642|INFO |[restartedMain]||Started DemoNCGL in 3.484 seconds (JVM running for 5053.53)
+2022-10-12 16:15:44,677|INFO |[restartedMain]||*****************info**************
+2022-10-12 16:15:44,681|INFO |[restartedMain]||Condition evaluation unchanged
+2022-10-12 16:17:44,014|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 38448 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-12 16:17:44,047|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-12 16:17:44,497|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-12 16:17:44,498|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-12 16:17:44,499|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-12 16:17:52,305|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 16:17:53,317|INFO |[restartedMain]||Finished Spring Data repository scanning in 975ms. Found 1 JPA repository interfaces.
+2022-10-12 16:18:01,939|INFO |[restartedMain]||Tomcat initialized with port(s): 8088 (http)
+2022-10-12 16:18:01,994|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:18:01,996|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-12 16:18:01,996|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-12 16:18:03,775|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-12 16:18:03,776|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 19277 ms
+2022-10-12 16:18:04,027|ERROR|[restartedMain]||Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'h2Console' defined in class path resource [org/springframework/boot/autoconfigure/h2/H2ConsoleAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'h2Console' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+2022-10-12 16:18:04,975|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-10-12 16:18:05,178|WARN |[restartedMain]||Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-10-12 16:18:05,369|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-12 16:18:05,379|ERROR|[restartedMain]||Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoNCGL.main(DemoNCGL.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'h2Console' defined in class path resource [org/springframework/boot/autoconfigure/h2/H2ConsoleAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'h2Console' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:467)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'h2Console' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 58 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.getIfAvailable(DefaultListableBeanFactory.java:1920)
+	at org.springframework.beans.factory.ObjectProvider.ifAvailable(ObjectProvider.java:91)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.h2Console(H2ConsoleAutoConfiguration.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 78 common frames omitted
+Caused by: java.lang.IllegalStateException: Cannot load driver class: oracle.jdbc.OracleDriver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 79 common frames omitted
+2022-10-12 16:22:41,901|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 31560 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-12 16:22:42,976|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-12 16:22:43,406|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-12 16:22:43,407|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-12 16:22:43,409|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-12 16:22:50,615|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 16:22:51,347|INFO |[restartedMain]||Finished Spring Data repository scanning in 690ms. Found 1 JPA repository interfaces.
+2022-10-12 16:22:51,538|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 40284 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-12 16:22:53,360|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-12 16:22:54,127|INFO |[restartedMain]||The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/lenovo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-12 16:22:54,128|INFO |[restartedMain]||Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-12 16:22:54,130|INFO |[restartedMain]||For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-12 16:22:59,555|INFO |[restartedMain]||Tomcat initialized with port(s): 8088 (http)
+2022-10-12 16:22:59,704|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:22:59,706|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-12 16:22:59,707|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-12 16:23:00,374|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-12 16:23:00,375|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 16964 ms
+2022-10-12 16:23:02,023|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 16:23:02,818|INFO |[restartedMain]||Finished Spring Data repository scanning in 772ms. Found 1 JPA repository interfaces.
+2022-10-12 16:23:13,343|INFO |[restartedMain]||Tomcat initialized with port(s): 8088 (http)
+2022-10-12 16:23:13,375|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:23:13,378|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-12 16:23:13,380|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-12 16:23:14,066|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-12 16:23:14,068|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 19938 ms
+2022-10-12 16:23:16,206|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-10-12 16:23:16,906|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-10-12 16:23:16,981|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-10-12 16:23:17,900|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-12 16:23:18,521|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-10-12 16:23:20,990|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-10-12 16:23:21,423|INFO |[restartedMain]||HHH000412: Hibernate Core {5.4.0.Final}
+2022-10-12 16:23:21,427|INFO |[restartedMain]||HHH000206: hibernate.properties not found
+2022-10-12 16:23:22,389|INFO |[restartedMain]||HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-12 16:23:23,470|INFO |[restartedMain]||HikariPool-1 - Starting...
+2022-10-12 16:23:25,608|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-10-12 16:23:25,724|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-10-12 16:23:28,508|INFO |[restartedMain]||HikariPool-1 - Start completed.
+2022-10-12 16:23:28,656|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-10-12 16:23:47,477|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 16:23:47,485|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 16:23:47,567|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-10-12 16:23:47,905|WARN |[restartedMain]||GenerationTarget encountered exception accepting command : Error executing DDL "alter table client_temp add nom varchar2(255 char)" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table client_temp add nom varchar2(255 char)" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:580)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:297)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:75)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:938)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoNCGL.main(DemoNCGL.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLException: ORA-01430: column being added already exists in table
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:202)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:45)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:933)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1718)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1678)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:332)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 39 common frames omitted
+2022-10-12 16:23:47,918|WARN |[restartedMain]||GenerationTarget encountered exception accepting command : Error executing DDL "create table ncggr_temp (idncggr varchar2(255 char) not null, ncg varchar2(255 char), ncgcat varchar2(255 char), ncggr varchar2(255 char), primary key (idncggr))" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table ncggr_temp (idncggr varchar2(255 char) not null, ncg varchar2(255 char), ncgcat varchar2(255 char), ncggr varchar2(255 char), primary key (idncggr))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:938)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoNCGL.main(DemoNCGL.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: name is already used by an existing object
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:202)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:45)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:933)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1718)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1678)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:332)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 39 common frames omitted
+2022-10-12 16:23:47,920|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 16:23:47,925|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 16:23:48,016|WARN |[restartedMain]||Unable to start LiveReload server
+2022-10-12 16:23:52,127|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 16:23:54,009|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 16:23:54,542|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-12 16:23:56,502|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-12 16:23:56,549|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-12 16:23:59,118|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-12 16:24:00,238|INFO |[restartedMain]||Context refreshed
+2022-10-12 16:24:00,310|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-10-12 16:24:00,559|INFO |[restartedMain]||Scanning for api listing references
+2022-10-12 16:24:00,718|INFO |[restartedMain]||Context refreshed
+2022-10-12 16:24:00,829|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-10-12 16:24:00,980|INFO |[restartedMain]||Scanning for api listing references
+2022-10-12 16:24:01,399|INFO |[restartedMain]||Generating unique operation named: listNCGUsingGET_1
+2022-10-12 16:24:01,444|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:24:01,776|INFO |[restartedMain]||Tomcat started on port(s): 8088 (http) with context path ''
+2022-10-12 16:24:01,827|INFO |[restartedMain]||Started DemoNCGL in 72.609 seconds (JVM running for 80.508)
+2022-10-12 16:24:01,851|INFO |[restartedMain]||Generating unique operation named: listNCGUsingGET_1
+2022-10-12 16:24:01,913|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:24:02,086|INFO |[restartedMain]||Pausing ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:24:02,086|INFO |[restartedMain]||Stopping service [Tomcat]
+2022-10-12 16:24:02,096|INFO |[restartedMain]||Stopping ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:24:02,097|INFO |[restartedMain]||Destroying ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:24:02,103|INFO |[restartedMain]||
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-12 16:24:02,107|ERROR|[restartedMain]||
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2022-10-12 16:24:02,212|INFO |[restartedMain]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-12 16:24:02,240|INFO |[restartedMain]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 16:24:02,251|INFO |[restartedMain]||HikariPool-1 - Shutdown initiated...
+2022-10-12 16:24:02,572|INFO |[restartedMain]||*****************info**************
+2022-10-12 16:24:02,716|INFO |[restartedMain]||HikariPool-1 - Shutdown completed.
+2022-10-12 16:26:07,940|INFO |[Thread-6]||Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-12 16:26:07,946|INFO |[Thread-6]||Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 16:26:07,955|INFO |[Thread-6]||HikariPool-1 - Shutdown initiated...
+2022-10-12 16:26:08,102|INFO |[Thread-6]||HikariPool-1 - Shutdown completed.
+2022-10-12 16:26:08,553|INFO |[restartedMain]||Starting DemoNCGL on DESKTOP-S6OKOUJ with PID 40284 (started by lenovo in F:\java proj\demoNCGL)
+2022-10-12 16:26:08,554|INFO |[restartedMain]||No active profile set, falling back to default profiles: default
+2022-10-12 16:26:09,666|INFO |[restartedMain]||Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 16:26:09,681|INFO |[restartedMain]||Finished Spring Data repository scanning in 13ms. Found 1 JPA repository interfaces.
+2022-10-12 16:26:09,969|INFO |[restartedMain]||Tomcat initialized with port(s): 8088 (http)
+2022-10-12 16:26:09,970|INFO |[restartedMain]||Initializing ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:26:09,971|INFO |[restartedMain]||Starting service [Tomcat]
+2022-10-12 16:26:09,971|INFO |[restartedMain]||Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-12 16:26:10,028|INFO |[restartedMain]||Initializing Spring embedded WebApplicationContext
+2022-10-12 16:26:10,028|INFO |[restartedMain]||Root WebApplicationContext: initialization completed in 1448 ms
+2022-10-12 16:26:10,181|INFO |[restartedMain]||HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-10-12 16:26:10,201|INFO |[restartedMain]||HikariPool-2 - Starting...
+2022-10-12 16:26:10,328|INFO |[restartedMain]||HikariPool-2 - Start completed.
+2022-10-12 16:26:10,330|INFO |[restartedMain]||HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-10-12 16:26:15,783|INFO |[restartedMain]||HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-12 16:26:15,784|INFO |[restartedMain]||Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 16:26:15,804|INFO |[restartedMain]||LiveReload server is running on port 35729
+2022-10-12 16:26:16,132|WARN |[restartedMain]||spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 16:26:16,231|INFO |[restartedMain]||Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-10-12 16:26:16,337|INFO |[restartedMain]||Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-12 16:26:16,488|INFO |[restartedMain]||Context refreshed
+2022-10-12 16:26:16,491|INFO |[restartedMain]||Found 1 custom documentation plugin(s)
+2022-10-12 16:26:16,552|INFO |[restartedMain]||Scanning for api listing references
+2022-10-12 16:26:16,665|INFO |[restartedMain]||Generating unique operation named: listNCGUsingGET_1
+2022-10-12 16:26:16,676|INFO |[restartedMain]||Starting ProtocolHandler ["http-nio-8088"]
+2022-10-12 16:26:16,692|INFO |[restartedMain]||Tomcat started on port(s): 8088 (http) with context path ''
+2022-10-12 16:26:16,696|INFO |[restartedMain]||Started DemoNCGL in 8.351 seconds (JVM running for 215.377)
+2022-10-12 16:26:16,762|INFO |[restartedMain]||*****************info**************
+2022-10-12 16:26:16,767|INFO |[restartedMain]||Condition evaluation unchanged
